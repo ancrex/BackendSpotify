@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{79676CC5-754B-43D5-BF85-D087A24875BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{454EE586-5B72-4E0A-84A7-128A6E60ED91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Core\Domain\Domain.csproj", "{F80630D3-F5D0-49FD-9E6D-F9CF748E10E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Core\Application\Application.csproj", "{14A4A43E-2501-4472-953F-C668ABB0AF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure", "Infraestructure\Infraestructure.csproj", "{EA37BD9F-227E-420A-982C-9746FC9DF2DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{454EE586-5B72-4E0A-84A7-128A6E60ED91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454EE586-5B72-4E0A-84A7-128A6E60ED91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454EE586-5B72-4E0A-84A7-128A6E60ED91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454EE586-5B72-4E0A-84A7-128A6E60ED91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80630D3-F5D0-49FD-9E6D-F9CF748E10E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80630D3-F5D0-49FD-9E6D-F9CF748E10E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80630D3-F5D0-49FD-9E6D-F9CF748E10E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80630D3-F5D0-49FD-9E6D-F9CF748E10E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A4A43E-2501-4472-953F-C668ABB0AF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A4A43E-2501-4472-953F-C668ABB0AF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A4A43E-2501-4472-953F-C668ABB0AF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A4A43E-2501-4472-953F-C668ABB0AF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA37BD9F-227E-420A-982C-9746FC9DF2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA37BD9F-227E-420A-982C-9746FC9DF2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA37BD9F-227E-420A-982C-9746FC9DF2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA37BD9F-227E-420A-982C-9746FC9DF2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD88F25F-DA74-47AE-8860-7D16670769AA}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F80630D3-F5D0-49FD-9E6D-F9CF748E10E1} = {79676CC5-754B-43D5-BF85-D087A24875BF}
+		{14A4A43E-2501-4472-953F-C668ABB0AF25} = {79676CC5-754B-43D5-BF85-D087A24875BF}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 80
+		$2.TabsToSpaces = True
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/x-json
+		$0.TextStylePolicy = $5
+		$5.FileWidth = 80
+		$5.TabsToSpaces = True
+		$5.scope = text/x-web
+	EndGlobalSection
+EndGlobal
