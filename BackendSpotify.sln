@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Core\Applica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure", "Infraestructure\Infraestructure.csproj", "{EA37BD9F-227E-420A-982C-9746FC9DF2DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{27CE480A-ADCE-4F4F-89EB-6187D18E8086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Test", "Tests\Application.Test\Application.Test.csproj", "{D07E0904-CFA9-4CE7-BB0E-5F64F92801E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure.Test", "Tests\Infraestructure.Test\Infraestructure.Test.csproj", "{892D9E4F-6D24-4288-86D8-819BF112EED9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +41,14 @@ Global
 		{EA37BD9F-227E-420A-982C-9746FC9DF2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA37BD9F-227E-420A-982C-9746FC9DF2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA37BD9F-227E-420A-982C-9746FC9DF2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07E0904-CFA9-4CE7-BB0E-5F64F92801E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07E0904-CFA9-4CE7-BB0E-5F64F92801E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07E0904-CFA9-4CE7-BB0E-5F64F92801E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07E0904-CFA9-4CE7-BB0E-5F64F92801E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892D9E4F-6D24-4288-86D8-819BF112EED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892D9E4F-6D24-4288-86D8-819BF112EED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892D9E4F-6D24-4288-86D8-819BF112EED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892D9E4F-6D24-4288-86D8-819BF112EED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +59,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F80630D3-F5D0-49FD-9E6D-F9CF748E10E1} = {79676CC5-754B-43D5-BF85-D087A24875BF}
 		{14A4A43E-2501-4472-953F-C668ABB0AF25} = {79676CC5-754B-43D5-BF85-D087A24875BF}
+		{D07E0904-CFA9-4CE7-BB0E-5F64F92801E1} = {27CE480A-ADCE-4F4F-89EB-6187D18E8086}
+		{892D9E4F-6D24-4288-86D8-819BF112EED9} = {27CE480A-ADCE-4F4F-89EB-6187D18E8086}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
